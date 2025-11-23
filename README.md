@@ -1,8 +1,13 @@
-AIM: 
+AIM:
+```
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
+```
 Equipments Required:
+```
 Software – Quartus prime
+```
 Theory
+```
 Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 AND gate OR gate NOT gate NAND gate NOR gate Ex-OR gate Ex-NOR gate
 AND gate
@@ -19,13 +24,17 @@ Ex-OR gate
 The 'Exclusive-OR' gate is a circuit which will give a high output if either, but not both of its two inputs are high. An encircled plus sign (⊕) is used to show the Ex-OR operation. Y= A⊕B
 Ex-NOR gate
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion. Y= A⊕B
+```
 Procedure
+```
 1.	Type the program in Quartus software.
 2.	Compile and run the program.
 3.	Generate the RTL schematic and save the logic diagram.
 4.	Create nodes for inputs and outputs to generate the timing diagram.
 5.	For different input combinations generate the timing diagram.
+```
 PROGRAM
+```
 Program for logic gates and verify its truth table in quartus using Verilog programming
 module Logic_gates (
     input  wire a,     // Input A
@@ -51,6 +60,7 @@ endmodule
 
 Developed by:SADHANA R
 RegisterNumber:25017643
+```
 Logic symbol & Truthtable
 <img width="1920" height="1080" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/55e1f854-118b-4bce-9a89-fb8b084af4e2" />
 
@@ -58,4 +68,7 @@ RTL realization Output:
 <img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/4bef57eb-ade3-4d65-85e9-bb57a78e9b7d" />
 
 RTL
-Result: Thus, the truth table of logic gates in Quartus II using Verilog programming is studied and verified.
+Result: 
+```
+Thus, the truth table of logic gates in Quartus II using Verilog programming is studied and verified.
+```
